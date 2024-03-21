@@ -1,6 +1,11 @@
 # Currently empty file
 
-name: run main.py
+name: run FastAPI App
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
