@@ -74,12 +74,6 @@ def delete_book(book_id : UUID):
         detail=f"ID {book_id} : Does not exist"
     )
 
-# Check once:
-#   1. Does debugging makes easier, or facing difficulty while running 
-#   cmd: "uvicorn main:app --reload"
- 
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, log_level="info")
 
 
 

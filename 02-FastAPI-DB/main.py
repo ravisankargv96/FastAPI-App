@@ -40,10 +40,3 @@ async def create_questions(question : QuestionBase, db: db_dependency):
         db.add(db_choice)
 
     db.commit()
-
-# Check once:
-#   1. Does debugging makes easier, or facing difficulty while running 
-#   cmd: "uvicorn main:app --reload"
-
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, log_level="info")

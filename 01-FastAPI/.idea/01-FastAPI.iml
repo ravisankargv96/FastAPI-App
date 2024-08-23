@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
+    <content url="file://$MODULE_DIR$/../02-FastAPI-DB" />
+    <content url="file://$MODULE_DIR$/../03-FastAPI-Auth" />
     <orderEntry type="jdk" jdkName="Python 3.9 (01-FastAPI)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
